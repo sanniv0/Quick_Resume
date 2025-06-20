@@ -105,7 +105,7 @@ export default function ResumeBuilder() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <Link href="/">
+              <Link to="/">
                 <Button variant="ghost" size="sm" className="text-neutral-500 hover:text-neutral-700 mr-4">
                   <ArrowLeft className="h-4 w-4" />
                 </Button>
@@ -289,7 +289,7 @@ export default function ResumeBuilder() {
                     <ArrowLeft className="h-4 w-4 ml-2 rotate-180" />
                   </Button>
                 ) : (
-                  <Link href="/">
+                  <Link to="/">
                     <Button variant="outline">
                       Return Home
                     </Button>

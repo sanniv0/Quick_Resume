@@ -107,7 +107,7 @@ export default function Pricing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <Link href="/">
+              <Link to="/">
                 <Button variant="ghost" size="sm" className="text-neutral-500 hover:text-neutral-700 mr-4">
                   <ArrowLeft className="h-4 w-4" />
                 </Button>
@@ -117,7 +117,7 @@ export default function Pricing() {
                 <span className="text-xl font-bold text-neutral-900">Quick Resume</span>
               </div>
             </div>
-            <Link href="/builder">
+            <Link to="/builder">
               <Button className="bg-primary hover:bg-primary/90 text-white">
                 Start Building
               </Button>
@@ -274,7 +274,7 @@ export default function Pricing() {
             Join thousands of professionals who have advanced their careers with Quick Resume.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/builder">
+            <Link to="/builder">
               <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-neutral-100 px-8">
                 Start Free Today
               </Button>

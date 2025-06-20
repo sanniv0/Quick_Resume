@@ -85,16 +85,16 @@ export default function Landing() {
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-8">
                 <a href="#home" className="text-neutral-900 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Home</a>
-                <Link href="/features">
+                <Link to="/features">
                   <span className="text-neutral-500 hover:text-primary px-3 py-2 text-sm font-medium transition-colors cursor-pointer">Features</span>
                 </Link>
-                <Link href="/examples">
+                <Link to="/examples">
                   <span className="text-neutral-500 hover:text-primary px-3 py-2 text-sm font-medium transition-colors cursor-pointer">Examples</span>
                 </Link>
-                <Link href="/pricing">
+                <Link to="/pricing">
                   <span className="text-neutral-500 hover:text-primary px-3 py-2 text-sm font-medium transition-colors cursor-pointer">Pricing</span>
                 </Link>
-                <Link href="/help">
+                <Link to="/help">
                   <span className="text-neutral-500 hover:text-primary px-3 py-2 text-sm font-medium transition-colors cursor-pointer">Help</span>
                 </Link>
               </div>
@@ -102,7 +102,7 @@ export default function Landing() {
             
             {/* CTA Button */}
             <div className="flex items-center">
-              <Link href="/builder">
+              <Link to="/builder">
                 <Button className="bg-primary hover:bg-primary/90 text-white px-6 py-2 font-medium">
                   Start Building Now
                 </Button>
@@ -126,16 +126,16 @@ export default function Landing() {
           <div className="md:hidden border-t border-neutral-200 bg-white">
             <div className="px-2 pt-2 pb-3 space-y-1">
               <a href="#home" className="block px-3 py-2 text-base font-medium text-neutral-900 hover:text-primary">Home</a>
-              <Link href="/features">
+              <Link to="/features">
                 <span className="block px-3 py-2 text-base font-medium text-neutral-500 hover:text-primary cursor-pointer">Features</span>
               </Link>
-              <Link href="/examples">
+              <Link to="/examples">
                 <span className="block px-3 py-2 text-base font-medium text-neutral-500 hover:text-primary cursor-pointer">Examples</span>
               </Link>
-              <Link href="/pricing">
+              <Link to="/pricing">
                 <span className="block px-3 py-2 text-base font-medium text-neutral-500 hover:text-primary cursor-pointer">Pricing</span>
               </Link>
-              <Link href="/help">
+              <Link to="/help">
                 <span className="block px-3 py-2 text-base font-medium text-neutral-500 hover:text-primary cursor-pointer">Help</span>
               </Link>
             </div>
@@ -156,12 +156,12 @@ export default function Landing() {
                 At Quick Resume, we believe everyone deserves a chance to showcase their skills and experiences in the best possible light. Build a professional resume that gets you noticed.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                <Link href="/builder">
+                <Link to="/builder">
                   <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-4 font-semibold text-lg shadow-lg hover:shadow-xl">
                     Start Building Now
                   </Button>
                 </Link>
-                <Link href="/builder">
+                <Link to="/builder">
                 <Button variant="outline" size="lg" className="border-neutral-300 text-neutral-700 hover:bg-neutral-50 px-8 py-4 font-semibold text-lg">
                   View Templates
                 </Button>
@@ -303,7 +303,7 @@ export default function Landing() {
           </div>
           
           <div className="text-center mt-12">
-            <Link href="/builder">
+            <Link to="/builder">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-4 font-semibold text-lg shadow-lg hover:shadow-xl">
                 Start Building Your Resume
               </Button>
@@ -405,9 +405,9 @@ export default function Landing() {
               <h3 className="font-semibold mb-4">Product</h3>
               <ul className="space-y-2 text-neutral-400">
                 <li><a href="#templates" className="hover:text-white transition-colors">Templates</a></li>
-                <li><Link href="/examples"><span className="hover:text-white transition-colors cursor-pointer">Examples</span></Link></li>
-                <li><Link href="/pricing"><span className="hover:text-white transition-colors cursor-pointer">Pricing</span></Link></li>
-                <li><Link href="/features"><span className="hover:text-white transition-colors cursor-pointer">Features</span></Link></li>
+                <li><Link to="/examples"><span className="hover:text-white transition-colors cursor-pointer">Examples</span></Link></li>
+                <li><Link to="/pricing"><span className="hover:text-white transition-colors cursor-pointer">Pricing</span></Link></li>
+                <li><Link to="/features"><span className="hover:text-white transition-colors cursor-pointer">Features</span></Link></li>
               </ul>
             </div>
             
@@ -415,9 +415,9 @@ export default function Landing() {
               <h3 className="font-semibold mb-4">Support</h3>
               <ul className="space-y-2 text-neutral-400">
                 <li><a href="#contact" className="hover:text-white transition-colors">Contact</a></li>
-                <li><Link href="/help"><span className="hover:text-white transition-colors cursor-pointer">Help Center</span></Link></li>
-                <li><Link href="/privacy"><span className="hover:text-white transition-colors cursor-pointer">Privacy Policy</span></Link></li>
-                <li><Link href="/terms"><span className="hover:text-white transition-colors cursor-pointer">Terms of Service</span></Link></li>
+                <li><Link to="/help"><span className="hover:text-white transition-colors cursor-pointer">Help Center</span></Link></li>
+                <li><Link to="/privacy"><span className="hover:text-white transition-colors cursor-pointer">Privacy Policy</span></Link></li>
+                <li><Link to="/terms"><span className="hover:text-white transition-colors cursor-pointer">Terms of Service</span></Link></li>
               </ul>
             </div>
           </div>
