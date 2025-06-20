@@ -12,11 +12,11 @@ import Features from "@/pages/features";
 import Pricing from "@/pages/pricing";
 import NotFound from "@/pages/not-found";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 function Router() {
   return (
-    <BrowserRouter basename="/Quick_Resume/">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/builder" element={<ResumeBuilder />} />
@@ -29,7 +29,7 @@ function Router() {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
