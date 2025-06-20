@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "client/index.html",
+      "src": "client",
       "use": "@vercel/static-build",
       "config": { "distDir": "dist/public" }
     },
@@ -16,6 +16,7 @@
       "src": "/api/(.*)",
       "dest": "server/index.ts"
     },
+    
     {
       "src": "/(.*)",
       "dest": "client/index.html"
